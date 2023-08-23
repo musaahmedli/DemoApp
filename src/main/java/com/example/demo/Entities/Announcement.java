@@ -1,14 +1,15 @@
 package com.example.demo.Entities;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import lombok.Generated;
-import lombok.NoArgsConstructor;
+import lombok.*;
+
 import java.util.Date;
 
 @Entity
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Table
 public class Announcement {
     @Id
