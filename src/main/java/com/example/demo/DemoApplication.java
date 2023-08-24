@@ -17,10 +17,6 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@GetMapping
-	public List<String> GetUsers(){
-		return List.of("Musa","Ismet","Servi");
-	}
 
 
 }

@@ -1,7 +1,8 @@
 package com.example.demo.Entities;
-import jakarta.persistence.*;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import javax.persistence.*;
 
 @Entity
 @Data
